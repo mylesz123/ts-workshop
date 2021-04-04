@@ -7,6 +7,7 @@ manage state, and more
 * We will be exploring HTML form event types and we build out some functionality for our AddPlayerForm
 * We will be checking out [union types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types)
 * Adding functionality to our stop watch, making use of `setInterval` & `clearInterval` and how typescript can help us use those functions
+* Seeing how handy types are when we update state based on previous state - `@types/react`
 
 
 ## Extra Credit:
