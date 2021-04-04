@@ -1,10 +1,6 @@
-interface Props {
-  name: string;
-  id: number;
-  score: number;
-}
+import { Player as PlayerType } from '../types';
 
-const Player = ({ name }: Props) => {
+const Player = ({ name }: PlayerType) => {
   return (
     <div className="player">
       <span className="player-name">

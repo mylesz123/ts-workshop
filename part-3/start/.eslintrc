@@ -1,0 +1,54 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2020, // Allows for the parsing of modern ECMAScript features
+    "sourceType": "module", // Allows for the use of imports
+    "ecmaFeatures": {
+      "jsx": true // Allows for the parsing of JSX
+    }
+  },
+  "extends": [
+    "wesbos"
+  ],
+  "rules": {
+    "no-console": 1,
+    "prettier/prettier": [
+      1,
+      {
+        "trailingComma": "es5",
+        "singleQuote": true,
+        "printWidth": 70
+      }
+    ],
+    
+    "arrow-body-style": "off",
+    "react/sort-prop-types": 1,
+    "no-nested-ternary": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": 1,
+    "no-plusplus": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    ]
+  },
+  // enabled for typescript
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    }
+  }
+}
